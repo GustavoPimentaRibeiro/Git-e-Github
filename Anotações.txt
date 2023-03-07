@@ -1,0 +1,84 @@
+------- Aula 1 (O que é Git? O que é versionamento?) -------
+-> Git - Software de Controle de Versão
+-> Github - Plataforma de Rede Social para Programadores
+-> Tipos de VCS:
+    -> Centralizado/linear:
+        -> CA Software Change Manager (CCC)
+        -> Source Code Control System (SCCS)
+        -> Panvalet
+        -> Concurrent Version System (CVS)
+        -> Apache Subversion (SVN)
+        -> ClearCase
+        -> Visual SourceSafe
+        -> Perforce
+    -> Distribuído:
+        -> Mercurial
+        -> Bazaar
+        -> Code Co-op
+        -> GNU arch
+        -> Monotone
+        -> Fossil
+        -> BitKeeper
+        -> Git
+-> Vantagens de controle de versionamento:
+    -> Controle de histórico
+    -> Trabalho em equipe
+    -> Ramificação do projeto
+    -> Segurança
+    -> Organização
+
+
+
+
+------- Aula 2 (O que é GitHub? Pra que ele serve?) -------
+-> Git seria a representação do "repositório local", enquanto o GitHub é a representação de um "repositório remoto", sendo necessário dar um "push" para mandar todos os arquivos locais para o repositório remoto
+-> Vantagens do GitHub:
+    -> Repositórios ilimitados
+    -> Hospedagem de código-fonte
+    -> Características de rede social
+    -> GitHub Pages Integrado
+    -> Colaboração
+    -> Forks
+-> Existem diversos repositórios remotos que trabalham com Git, como:
+    -> GitHub
+    -> GitLab
+    -> BitBucket
+    -> Phabricator
+    -> Gogs
+    -> Kallithea
+
+
+
+
+------- Aula 3 (A evolução do Git e GitHub) -------
+-> 
+
+------- Aula 4 (Instalações e configurações importantes) -------
+-> 
+
+------- Aula 5 (Criando o primeiro Repositório) -------
+-> 
+
+------- Aula 6 (Instalando GitHub Desktop no Linux) -------
+-> 
+
+------- Aula 7 (Clonando um Repositório) -------
+-> 
+
+------- Aula 8 (Versionando seus projetos antigos) -------
+-> 
+
+------- Aula 9 (Você sabe usar Issues?) -------
+-> 
+
+------- Aula 10 (Guia da Linguagem Markdown) -------
+-> 
+
+------- Aula 11 (Seu GitHub muito mais seguro) -------
+-> 
+
+------- Aula 12 (Git Branches de forma fácil e com exemplo) -------
+-> 
+
+------- Aula 13 (Hospedagem Grátis no GitHub Pages) -------
+-> 
