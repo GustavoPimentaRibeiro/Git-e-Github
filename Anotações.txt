@@ -51,34 +51,139 @@
 
 
 ------- Aula 3 (A evolução do Git e GitHub) -------
--> 
+-> CVS:
+    -> Surgiu em 1985
+    -> Centralizado
+    -> Open Source
+    -> Mais popular
+    -> Alguns problemas
+-> SVN:
+    -> Surgiu em 2000
+    -> Centralizado
+    -> Open Source
+    -> Ativo até hoje
+    -> CVS-like
+-> BitKeeper:
+    -> Surgiu em 2000
+    -> Distribuído
+    -> Proprietário
+    -> Versão comunidade
+        -> Kernel do Linux era disponibilizado pelo BitKeeper
+    -> CVS-free
+    -> Em 2004:
+        -> SourcePuller
+        -> Engenharia Reversa - para descobrir o código do programa
+        -> Recursos destravados - descobriu uma versão crackeada
+    -> Em 2005:
+        -> Nova licença
+        -> Bloqueava acesso a metadados
+        -> Deixou tudo só na versão comercial
+-> Git:
+    -> Distribuído
+    -> Open Source
+    -> Feito em 10 dias
+    -> Performance
+-> GitHub:
+    -> Surgiu em 2008
+    -> Proprietário
+    -> Hospedagem de código
+    -> Baseado em Git
+    -> Em 2009:
+        -> 46 mil repositórios
+    -> Em 2010:
+        -> 100 mil usuários / 1 mi de repositórios
+    -> Em 2011:
+        -> Ultrapassou SourceForge
+    -> Em 2013:
+        -> 3 mi de usuários / 5 mi de repositórios
+    -> Em 2016:
+        -> 14° lugar na lista do Forbes
+    -> Em 2018:
+        -> Maior ataque de DDos da história
+        -> Adquiridos pela Microsoft
+        -> US$ 7,5 bilhões
+        -> Operação independente
+    -> Em 2020:
+        -> GitHub compra a npm
+
+
+
 
 ------- Aula 4 (Instalações e configurações importantes) -------
--> 
+
 
 ------- Aula 5 (Criando o primeiro Repositório) -------
--> 
+
 
 ------- Aula 6 (Instalando GitHub Desktop no Linux) -------
--> 
+
 
 ------- Aula 7 (Clonando um Repositório) -------
--> 
+
 
 ------- Aula 8 (Versionando seus projetos antigos) -------
--> 
+-> Gitignore tira todos os arquivos julgados como inúteis que serão guardados no GitHub
+
+
+
 
 ------- Aula 9 (Você sabe usar Issues?) -------
--> 
+-> Antes de digitar uma issue de algum repositório, cheque se existe a mesma issue em algum comentário fazendo uma busca simples
+-> É possível fazer "saved reply" para inserir mensagens padrões que usam de Markdown para elaborar melhores textos
+
+
+
 
 ------- Aula 10 (Guia da Linguagem Markdown) -------
--> 
+-> É possível misturar diversas formatações
+
+--- Markdown ---
+-> # título 1 - para destacar linha como título primário
+-> ## título 2 - para destacar linha como título secundário
+-> ### título 3 - para destacar linha como título terceário
+-> **negrito**/__negrito__ - para fazer um texto ficar em negrito
+-> *italico*/_italico_ - para fazer um texto ficar em itálico
+-> ~~deletado~~ - para indicar que o texto foi deletado/tirado
+-> ---/*** - para fazer uma linha horizontal em toda a linha
+-> 1. item - faz uma lista com a descrição "item" (ele seguirá fazendo a enumeração correta contanto que seja digitado um número, um ponto e dado um espaço para a descrição)
+    -> Para fazer um subitem é necessário dar 2/3 espaços antes
+-> * item/- item - para fazer um "item" de uma lista demarcada
+    -> Para fazer um subitem é necessário dar 2/3 espaços antes
+-> - [] item - para fazer um "item" de uma lista de tarefas
+    -> para marcar a caixa de seleção, é só colocar um "x" dentro dos colchetes
+    -> Para fazer um subitem é necessário dar 2/3 espaços antes
+
+-> ![descricao-imagem](caminho) - faz um upload de imagem com uma "descricao-imagem" para dentro do arquivo de markdown, é só dar o "caminho" para saber onde está a imagem
+-> [descricao](caminho) - faz um link com uma "descricao" e o "caminho" para onde irá levar
+-> Exemplo de lista:
+    Num | Nome | Nota
+    ---|---|---
+    1 | Gustavo | 8,5
+    2 | José | 10,0
+    3 | Maria | 9,0
+    -> Desta forma é feito uma lista de forma organizada, utiliza-se muito o "|"
+-> `codigo` - para destacar o texto como "codigo"
+-> ``` codigos ``` - para destacar várias linhas como bloco de código
+-> :contexto: - para fazer um emoticon com prefixo e sufixo com ":" e o "contexto" do emote que deseja
+-> > texto - para fazer citações de "texto", é possível fazer em várias linhas para ficar maior
+-> @usuario - para mencionar "usuario" no texto
+-> #numero - para mencionar uma issue enumerada com o "numero"
+-> \ - para escapar algum símbolo especial
+
+
+
 
 ------- Aula 11 (Seu GitHub muito mais seguro) -------
--> 
+-> Habilitar autenticação de dois fatores, entre muitos outros tipos
+
+
+
 
 ------- Aula 12 (Git Branches de forma fácil e com exemplo) -------
--> 
+-> Branch é um ramo de uma árvore que é criado para criar subversões do sistema principal "master"
+-> Evitar commitar tudo na branch "master", em vez disso crie uma nova branch, logo após fazer todas as moficações que desejou dê um "merge" para a branch "master"
+
+
+
 
 ------- Aula 13 (Hospedagem Grátis no GitHub Pages) -------
--> 
